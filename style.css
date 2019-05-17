@@ -1,0 +1,295 @@
+
+/*Login*/
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.box{
+  width: 100%;
+  padding: 100%;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #CD9B1D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: white;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: inline;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 50px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "button"]{
+  border:0;
+  background: none;
+  display: inline;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #CD9B1D;
+}
+.box input[type = "button"]:hover{
+  background: #CD9B1D;
+}
+.box p{
+  color: white;
+}
+/*botao*/
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.middle{
+  position: absolute;
+  top: 5.5%;
+   left: 22.0%;
+  transform: translate(-50%,-50%);
+}
+.middle2{
+  position: absolute;
+  top: 6.0%;
+  left: 22.0%;
+  transform: translate(-50%,-50%);
+}
+
+.sm-container{
+  text-align: center;
+}
+.sm-container2{
+  text-align: center;
+}
+
+.sm-container i{
+  border: 2px
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.sm-container2 i{
+  border: 2px
+  color: #32CD32;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.sm-container i:hover{
+  transform: scale(1.2);
+}
+.sm-container2 i:hover{
+  transform: scale(1.2);
+}
+.sm-menu a{
+  color:black
+}
+
+.sm-menu{
+  background: #CD9B1D;
+  position: absolute;
+  border-radius: 8px;
+  display: none;
+}
+.sm-menu2{
+  background: #32CD32;
+  position: absolute;
+  border-radius: 8px;
+  display: none;
+}
+
+.sm-menu::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #CD9B1D;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+.sm-menu2::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #32CD32
+;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+/*area de contato*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background:black;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: white;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: white;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #CD9B1D;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: white;
+  color: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #CD9B1D;
+}
+/*MENU*/
+body{
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+.menu2:hover .content a{
+  display: block;
+}
+.menu3:hover .content2 a{
+  display: block;
+}
+.btn{
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.content {
+min-width: 200px;
+position: absolute;
+}
+.content2 {
+min-width: 200px;
+position: absolute;
+}
+
+ .menu2{
+  text-decoration: none;
+  text-align:center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+.menu3{
+ text-decoration: none;
+ text-align:center;
+ width: 100%;
+ font-weight: 700;
+ font-size: 20px;
+ font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+.content a{
+  min-width: 100px;
+  min-height: 30px;
+  color: black;
+  background: #CD9B1D;
+  width: auto;
+  margin: 1px 40px;
+  padding: 10px 30px 20px;
+  text-align: center;
+  display: none;
+  transition: 0.3s all;
+  position: relative;
+}
+.content2 a {
+  min-width: 100px;
+  min-height: 30px;
+  background: #32CD32;
+  margin: 1px 40px;
+  padding: 10px 30px 20px;
+  text-align: center;
+  display: none;
+  transition: 0.3s all;
+  position: relative;
+}
+.content a:hover{
+  opacity: 0.7;
+}
+.content2 a:hover{
+  opacity: 0.7;
